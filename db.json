@@ -1,0 +1,184 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "title": "Kyiv Hostel",
+      "location": "Kyiv",
+      "price": 980,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/291065028.jpg?k=3bc83d79f5ed39fdf79db5f5f531640d0d83fb60788d600e2cac71d1f5839326&o=&hp=1",
+      "description": "Comfortable and budget-friendly accommodation in the heart of Kyiv.",
+      "booked": true
+    },
+    {
+      "id": "2",
+      "title": "Lviv Stay",
+      "location": "Lviv",
+      "price": 870,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/631064785.jpg?k=f2353baf5834583391566d39897b8dc99c025c15c0fe6a49432182268afcc013&o=",
+      "description": "Charming hostel near the historic city center of Lviv.",
+      "booked": true
+    },
+    {
+      "id": "3",
+      "title": "Odesa Inn",
+      "location": "Odesa",
+      "price": 920,
+      "image": "https://digital.ihg.com/is/image/ihg/holiday-inn-odessa-6173311268-4x3",
+      "description": "Modern rooms near Odesa beach and nightlife.",
+      "booked": true
+    },
+    {
+      "id": "4",
+      "title": "Kharkiv Place",
+      "location": "Kharkiv",
+      "price": 800,
+      "image": "https://kharkiv-palace.com/wp-content/uploads/2019/02/kharkiv_palace_rooms_mp1-e1556197572491.jpg",
+      "description": "Great location and cozy rooms in central Kharkiv.",
+      "booked": true
+    },
+    {
+      "id": "5",
+      "title": "Dnipro House",
+      "location": "Dnipro",
+      "price": 850,
+      "image": "https://dniprohotel.ua/wp-content/themes/dniprohotel/assets/img/about-img.jpg",
+      "description": "Quiet and affordable lodging by the river in Dnipro.",
+      "booked": true
+    },
+    {
+      "id": "6",
+      "title": "Vinnytsia Hostel",
+      "location": "Vinnytsia",
+      "price": 790,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/154473978.jpg?k=d58dd3f277fa3d8d085f2a87dd3ed17b66ec6c0012a3c5e7a53a8dcf8d2502f0&o=&hp=1",
+      "description": "Simple and welcoming hostel near downtown Vinnytsia.",
+      "booked": true
+    },
+    {
+      "id": "7",
+      "title": "Zaporizhzhia Inn",
+      "location": "Zaporizhzhia",
+      "price": 860,
+      "image": "https://optimahotels.com.ua/media/filer_public_thumbnails/filer_public/be/4a/be4a6be7-e002-41e6-b218-f87c49e00ebb/foto_fasad_goteliu.jpg__1200x1200_q80_ALIAS-fancybox_subsampling-2.jpg",
+      "description": "Clean and secure hostel with local atmosphere.",
+      "booked": false
+    },
+    {
+      "id": "8",
+      "title": "Ivano-Frankivsk Stay",
+      "location": "Ivano-Frankivsk",
+      "price": 810,
+      "image": "https://cf.bstatic.com/static/img/theme-index/bg_spa_hotels/48a81561f429a6047d512eacff03ddd34a4d0441.jpg",
+      "description": "Friendly staff and beautiful mountain views.",
+      "booked": true
+    },
+    {
+      "id": "9",
+      "title": "Ternopil Comfort",
+      "location": "Ternopil",
+      "price": 830,
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/636606310.jpg?k=5b93a4cd4a71a6f0a4c4f2b0e3555b57444aff38688d0ba9749c55ac2cfa58a4&o=",
+      "description": "Chill place with fast internet and comfy beds.",
+      "booked": false
+    },
+    {
+      "id": "10",
+      "title": "Chernihiv Base",
+      "location": "Chernihiv",
+      "price": 780,
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/368008969.jpg?k=1d21dc5bae0e23c3487b35416f77204c4fa24358721b08b44b10d812e353bf52&o=",
+      "description": "Budget rooms with all essentials in Chernihiv.",
+      "booked": false
+    },
+    {
+      "id": "11",
+      "title": "Chernivtsi Lodge",
+      "location": "Chernivtsi",
+      "price": 820,
+      "image": "https://allureinn-and-restaurant-complex.hotels-of-ukraine.com/data/Photos/OriginalPhoto/15450/1545022/1545022645/photo-allureinn-hotel-and-restaurant-complex-chernivtsi-19.JPEG",
+      "description": "Charming and colorful place in the west of Ukraine.",
+      "booked": false
+    },
+    {
+      "id": "12",
+      "title": "Poltava Stop",
+      "location": "Poltava",
+      "price": 770,
+      "image": "https://www.phnr.com/s3img/hotels/slider/23/2356/65686414162e8e9c0bbf11.png",
+      "description": "Perfect for solo travelers and backpackers.",
+      "booked": true
+    },
+    {
+      "id": "13",
+      "title": "Sumy Shelter",
+      "location": "Sumy",
+      "price": 750,
+      "image": "https://m-aparthotel-vip-sumy.hotelmix.com.ua/data/Photos/OriginalPhoto/5407/540792/540792735/M-M-Aparthotel-Vip-Sumy-Exterior.JPEG",
+      "description": "Quiet and cozy with great access to city parks.",
+      "booked": false
+    },
+    {
+      "id": "14",
+      "title": "Rivne Nest",
+      "location": "Rivne",
+      "price": 790,
+      "image": "https://hotel4x4.rv.ua/storage/web/cache/1/AJVTqyBNRlOYzLFZsDB7pDzp_Vl7zjhb.png?w=804&h=564&fit=resize&q=90&fm=pjpg&s=6800122957e5de5cef015d5d1f4740ab",
+      "description": "Great budget option in a friendly environment.",
+      "booked": false
+    },
+    {
+      "id": "15",
+      "title": "Lutsk Hostel",
+      "location": "Lutsk",
+      "price": 760,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/148065864.jpg?k=342c3556fc4fc7ab79a2aa3de27d57e2bf61d13e1cc242100b9cacb6446d1729&o=&hp=1",
+      "description": "Small and clean with local hospitality.",
+      "booked": false
+    },
+    {
+      "id": "16",
+      "title": "Zhytomyr Hub",
+      "location": "Zhytomyr",
+      "price": 780,
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/506252655.jpg?k=b7b8d6867289d2e31ab726e8b35fad6348ad34b04718c14b91d95bc3999339d9&o=",
+      "description": "Newly renovated rooms in central Zhytomyr.",
+      "booked": false
+    },
+    {
+      "id": "17",
+      "title": "Uzhhorod View",
+      "location": "Uzhhorod",
+      "price": 800,
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/645012648.jpg?k=39751adb87dbcf7ebc04a00f86be556bbf130bd0370d4426ccff16255e162ae3&o=",
+      "description": "Unique vibe near the border and the river.",
+      "booked": false
+    },
+    {
+      "id": "18",
+      "title": "Mykolaiv Rooms",
+      "location": "Mykolaiv",
+      "price": 810,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/311245446.jpg?k=9a3fdeac9fcf5b477f8b64eb946c31fd0432c193b98f2ab3da0618015724c4c9&o=&hp=1",
+      "description": "Quiet location with city access nearby.",
+      "booked": false
+    },
+    {
+      "id": "19",
+      "title": "Kherson Hostel",
+      "location": "Kherson",
+      "price": 770,
+      "image": "https://cheaphotels.ks.ua/storage/uploads/XfYGHTvJ0BA6hMmwxMsSZbvdevA8wjSi7MU1BvDQ.jpeg",
+      "description": "Clean and safe stay near riverbanks.",
+      "booked": false
+    },
+    {
+      "id": "20",
+      "title": "Cherkasy Retreat",
+      "location": "Cherkasy",
+      "price": 790,
+      "image": "https://www.riverwood.com.ua/wp-content/uploads/20-3-scaled.jpg",
+      "description": "Peaceful hostel with a lovely garden view.",
+      "booked": false
+    }
+  ]
+}
