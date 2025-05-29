@@ -5,7 +5,7 @@ const AboutPage = () => {
         About the project
       </h2>
 
-      <p className="text-white text-jg mb-6 leading-relaxed">
+      <p className="text-gray-900 text-jg mb-6 leading-relaxed">
         <strong>BookingApp</strong> The app offers a smooth and intuitive
         booking flow. Users can quickly fill out a simple form and get instant
         access to hotel options without any distractions. Fast response, clean
@@ -13,7 +13,7 @@ const AboutPage = () => {
         both desktop and mobile devices.
       </p>
 
-      <p className="text-white text-jg mb-6 leading-relaxed">
+      <p className="text-gray-900 text-jg mb-6 leading-relaxed">
         This project was developed as part of a front-end learning journey, with
         a strong focus on applying real-world development principles. It's built
         to reflect scalable architecture, maintainable code structure, and
@@ -21,10 +21,10 @@ const AboutPage = () => {
         foundation for future growth and development.
       </p>
 
-      <h3 className="text-xl font-semibold text-yellow-300 mb-3">
+      <h3 className="text-xl font-semibold text-yellow-400 mb-3">
         🛠️ Tech Stack:
       </h3>
-      <ul className="list-disc list-inside text-white text-base mb-6 space-y-1">
+      <ul className="list-disc list-inside text-gray-900 text-base mb-6 space-y-1">
         <li>
           ⚡️<strong>React + Vite</strong> - fast, modern tooling
         </li>
@@ -46,10 +46,10 @@ const AboutPage = () => {
         </li>
       </ul>
 
-      <h3 className="text-xl font-semibold text-yellow-300 mb-3">
+      <h3 className="text-xl font-semibold text-yellow-400 mb-3">
         🎯Why this project matters{" "}
       </h3>
-      <p className="text-white text-lg mb-6 leading-relaxed">
+      <p className="text-gray-900 text-lg mb-6 leading-relaxed">
         This project bridges the gap between theory and practice. It’s not just
         about writing code — it’s about building a real, functional product
         using modern tools and workflows. It helps develop problem-solving
@@ -57,8 +57,8 @@ const AboutPage = () => {
         front-end development.
       </p>
 
-      <h3 className="text-xl font-swmibold text-yellow-300 mb-3">👩‍💻 Author</h3>
-      <p>
+      <h3 className="text-xl font-swmibold text-yellow-400 mb-3">👩‍💻 Author</h3>
+      <p className="text-gray-900">
         This project is just the beginning — every line of code brings me closer
         to becoming a better developer.
       </p>

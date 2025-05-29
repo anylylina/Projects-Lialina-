@@ -17,12 +17,18 @@ const HotelCard = ({
       className,
     )}
   >
-    <img src={image} alt={title} className="h-58 w-full object-cover" />
+    <img
+      src={image}
+      alt={title}
+      className="h-58 w-full object-cover"
+      loading="lazy"
+      decoding="async"
+    />
 
     <div className="p-4">
       <h3 className="text-xl font-semibold mb-1">{title}</h3>
       <p className="text-sm text-gray-400 mb-2">{location}</p>
-      <p className="text-yellow-400 font-bold mb-2">{price} / night</p>
+      <p className="text-yellow-400 font-bold mb-2">{price}₴ / night</p>
       <p className="text-sm mb-4">{description}</p>
 
       <div className="text-yellow-300 hover:underline font-medium">

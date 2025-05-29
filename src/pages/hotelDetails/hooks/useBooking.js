@@ -9,5 +9,5 @@ export const useBooking = () => {
     dispatch(bookHotelRequest({ hotelId }));
   };
 
-  return { bookHotel, bookingLoading };
+  return { bookHotel, bookingInProgress: bookingLoading };
 };

@@ -1,73 +1,54 @@
-import { useForm } from "react-hook-form";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { useNavigate } from "react-router-dom";
+import useRecommendedHotels from "@/pages/home/hooks/useRecommendedHotels";
+import { Filters } from "./components/Filters";
 
 const HomePage = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-
   const navigate = useNavigate();
+  const { recommended, loading } = useRecommendedHotels();
 
-  const onSubmit = (data) => {
-    const params = new URLSearchParams();
-
-    Object.entries(data).forEach(([key, value]) => {
-      if (value) params.append(key, value);
-    });
-
-    navigate(`/hotels?${params.toString()}`);
+  const hendleHotelRedirect = (id) => {
+    navigate(`/hotels/${id}`);
   };
 
   return (
-    <section>
+    <section className="max-w-4xl mx-auto px-8 py-2 space-y-10">
       <h2 className="text-3xl font-bold text-yellow-400 mb-6">
-        Find your perfect hotel
+        Your next adventure starts here...
       </h2>
+      <Filters />
 
-      <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4">
-        <div>
-          <Input
-            type="text"
-            placeholder="Location"
-            {...register("location", { required: "Location is required" })}
-          />
-          {errors.location && (
-            <p className="text-red-500 text-sm mt-1">
-              {errors.location.message}
-            </p>
-          )}
-        </div>
+      <div className="mt-10">
+        <h3 className="text-xl font-semibold text-yellow-500 mb-4">
+          Recommended for you...
+        </h3>
 
-        <div className="flex gap-4">
-          <Input type="date" {...register("checkIn")} />
-          <Input type="date" {...register("checkOut")} />
-        </div>
-
-        <Input
-          type="number"
-          placeholder="Guests amount"
-          {...register("guests")}
-        />
-
-        <div className="flex gap-4">
-          <Input
-            placeholder="Price from"
-            type="number"
-            {...register("priceFrom")}
-          />
-          <Input
-            placeholder="Price to"
-            type="number"
-            {...register("priceTo")}
-          />
-        </div>
-
-        <Button label="Search" type="submit" />
-      </form>
+        {loading ? (
+          <p className="text-white">Loading recommended hotels...</p>
+        ) : (
+          <div className="grid gap-6 md:grid-cols-3">
+            {recommended.map((hotel) => (
+              <div
+                key={hotel.id}
+                className="bg-gray-800 text-white rounded-lg shadow p-4 cursor-pointer hover:shadow-lg transition"
+                onClick={() => hendleHotelRedirect(hotel.id)}
+              >
+                {hotel.image && (
+                  <img
+                    src={hotel.image}
+                    alt={hotel.title}
+                    className="w-full h-40 object-cover rounded mb-3"
+                  />
+                )}
+                <h4 className="text-lg font-bold">{hotel.title}</h4>
+                <p className="text-gray-300">{hotel.locations.join(",")}</p>
+                <p className="text-yellow-300 font-semibold mt-1">
+                  {hotel.price}₴
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </section>
   );
 };

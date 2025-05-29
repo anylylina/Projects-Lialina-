@@ -7,8 +7,5 @@ export const navLinks = [
     name: "Hotels",
     to: "/hotels",
   },
-  {
-    name: "About",
-    to: "/about",
-  },
+  { name: "About", to: "/about" },
 ];

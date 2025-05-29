@@ -10,6 +10,8 @@ const hotelsSlice = createSlice({
     bookingError: null,
   },
   reducers: {
+    fetchFilterHotels() {},
+
     fetchHotelsRequest(state) {
       state.loading = true;
       state.error = null;
@@ -22,8 +24,7 @@ const hotelsSlice = createSlice({
       state.loading = false;
       state.error = action.payload;
     },
-
-    bookHotelRequest(state, action) {
+    bookHotelRequest(state) {
       state.bookingLoading = true;
       state.bookingError = null;
     },
@@ -49,6 +50,7 @@ export const {
   bookHotelRequest,
   bookHotelSuccess,
   bookHotelFailure,
+  fetchFilterHotels,
 } = hotelsSlice.actions;
 
 export default hotelsSlice.reducer;

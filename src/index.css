@@ -1,11 +1,7 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 *:focus {
   outline: none !important;
-}
-
-:root {
-  background: #131121;
 }
 
 a,
